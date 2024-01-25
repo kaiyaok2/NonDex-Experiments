@@ -13,7 +13,6 @@ function download_build() {
     )
   fi
   if [ $? == 0 ]; then
-    echo "ANDROID!!!"
     grep -i android ${dir}/build.gradle
     if [ $? == 1 ]; then
         echo $user/$repo >> repos_refined2.txt
@@ -23,6 +22,7 @@ function download_build() {
 
 touch repos_refined2.txt
 for f in $(cat $1); do
-    echo ========== trying to dowload $f
+    echo ========== trying to download $f
     download_build $f
 done
+rm -rf github.com/
