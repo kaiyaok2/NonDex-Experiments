@@ -162,13 +162,13 @@ function download_compile() {
     fi
 }
 
-#touch result.csv
-#touch flaky.csv
-#touch project_test_count.csv
-#echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (minutes)" > result.csv
-#echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > flaky.csv
-#echo "Project URL,SHA Detected,Test Count" > project_test_count.csv
-#mkdir error_log
+touch result.csv
+touch flaky.csv
+touch project_test_count.csv
+echo "project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (minutes)" > result.csv
+echo "Project URL,SHA Detected,Subproject Name,Fully-Qualified Test Name (packageName.ClassName.methodName)" > flaky.csv
+echo "Project URL,SHA Detected,Test Count" > project_test_count.csv
+mkdir error_log
 for f in $(cat $1); do
     echo ========== trying to download $f
     download_compile $f
