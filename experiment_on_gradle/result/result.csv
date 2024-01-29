@@ -1,3 +1,4 @@
+project name,compile,gradle version,flaky tests,total tests,successful tests,failed tests,skipped tests,time (minutes)
 ReactiveX/RxJava,T,7.6.2,5,13149,12389,14,746,148
 apache/kafka:clients,T,8.5,error,,,,,84
 apache/kafka:connect,T,8.5,error,,,,,84
@@ -33,14 +34,10 @@ Netflix/Hystrix:hystrix-servo-metrics-publisher,T,8.1.1,0,3,3,0,0,47
 Netflix/Hystrix:hystrix-yammer-metrics-publisher,T,8.1.1,no test,,,,,47
 williamfiset/Algorithms,F,7.4.2,N/A,,,,,2
 Grasscutters/Grasscutter,T,7.4.2,error,0,0,0,0,26
-elastic/logstash:benchmark-cli,T,8.5,0,2,2,0,0
-2,2,0,0,16
-elastic/logstash:dependencies-report,T,8.5,0,7,7,0,0
-7,7,0,0,18
-elastic/logstash:ingest-converter,T,8.5,0,56,56,0,0
-56,56,0,0,19
-elastic/logstash:jvm-options-parser,T,8.5,0,9,9,0,0
-9,9,0,0,20
+elastic/logstash:benchmark-cli,T,8.5,0,2,2,0,0,16
+elastic/logstash:dependencies-report,T,8.5,0,7,7,0,0,18
+elastic/logstash:ingest-converter,T,8.5,0,56,56,0,0,19
+elastic/logstash:jvm-options-parser,T,8.5,0,9,9,0,0,20
 elastic/logstash:logstash-core,T,8.5,no test,,,,,28
 elastic/logstash:logstash-core-benchmarks,T,8.5,no test,,,,,29
 elastic/logstash:logstash-integration-tests,T,8.5,no test,,,,,30
@@ -927,7 +924,7 @@ wpilibsuite/allwpilib:wpilibc,T,8.5,no test,,,,,199
 wpilibsuite/allwpilib:wpilibcExamples,T,8.5,no test,,,,,200
 wpilibsuite/allwpilib:wpilibcIntegrationTests,T,8.5,no test,,,,,200
 wpilibsuite/allwpilib:wpilibj,T,8.5,0,521,519,0,2,206
-wpilibsuite/allwpilib:wpilibjExamples,T,8.5,0,,,,,219
+wpilibsuite/allwpilib:wpilibjExamples,T,8.5,no test,,,,,219
 wpilibsuite/allwpilib:wpilibjIntegrationTests,T,8.5,no test,,,,,219
 wpilibsuite/allwpilib:wpilibNewCommands,T,8.5,0,242,242,0,0,230
 wpilibsuite/allwpilib:wpimath,T,8.5,0,525,525,0,0,236
@@ -1605,7 +1602,7 @@ spinnaker/clouddriver:clouddriver-artifacts,T,7.6.1,0,48,47,1,0,191
 spinnaker/clouddriver:clouddriver-aws,T,7.6.1,5,1396,1396,0,0,234
 spinnaker/clouddriver:clouddriver-azure,T,7.6.1,35,142,142,0,0,381
 spinnaker/clouddriver:clouddriver-bom,T,7.6.1,no test,,,,,382
-spinnaker/clouddriver:clouddriver-cloudfoundry,T,7.6.1,1,,,,,397
+spinnaker/clouddriver:clouddriver-cloudfoundry,T,7.6.1,1,964,928,36,0,397
 spinnaker/clouddriver:clouddriver-cloudrun,T,7.6.1,0,18,18,0,0,400
 spinnaker/clouddriver:clouddriver-configserver,T,7.6.1,no test,,,,,401
 spinnaker/clouddriver:clouddriver-consul,T,7.6.1,no test,,,,,401
@@ -1671,3 +1668,428 @@ radioegor146/native-obfuscator:obfuscator,T,8.3,0,887,10,877,0,864
 wepay/waltz,F,5.6.1,N/A,,,,,0
 Swagger2Markup/spring-swagger2markup-demo,F,2.4,N/A,,,,,0
 rapidminer/rapidminer-studio,F,4.10.3,N/A,,,,,0
+Yubico/java-webauthn-server:test-dependent-projects,T,8.1.1,no test,,,,,25
+Yubico/java-webauthn-server:test-platform,T,8.1.1,no test,,,,,26
+Yubico/java-webauthn-server:webauthn-server-attestation,T,8.1.1,0,113,113,0,0,98
+Yubico/java-webauthn-server:webauthn-server-core,T,8.1.1,0,2054,2046,0,8,239
+Yubico/java-webauthn-server:webauthn-server-demo,T,8.1.1,0,8,8,0,0,246
+Yubico/java-webauthn-server:yubico-util,T,8.1.1,0,31,31,0,0,249
+Yubico/java-webauthn-server:yubico-util-scala,T,8.1.1,no test,,,,,250
+jwagenleitner/groovy-wslite,F,2.4,N/A,,,,,0
+purplejs/purplejs,F,2.14.1,N/A,,,,,0
+borysn/spring-boot-angular2,F,3.4,N/A,,,,,0
+jjenkov/javafx-examples,F,6.7,N/A,,,,,0
+lemmingapex/trilateration,F,2.14,N/A,,,,,0
+stephenh/mirror,F,6.6.1,N/A,,,,,0
+FXyz/FXyz:=>,T,8.3,error,,,,,8
+FXyz/FXyz:=>,T,8.3,error,,,,,8
+FXyz/FXyz:=>,T,8.3,error,,,,,8
+FXyz/FXyz:=>,T,8.3,error,,,,,8
+FXyz/FXyz:FXyz-Client,T,8.3,no test,,,,,8
+FXyz/FXyz:FXyz-Core,T,8.3,0,22,22,0,0,9
+FXyz/FXyz:FXyz-Importers,T,8.3,0,15,14,1,0,11
+FXyz/FXyz:FXyz-Samples,T,8.3,no test,,,,,12
+MinicraftPlus/minicraft-plus-revived:client,error with test,7.3,no test,,,,,4
+MinicraftPlus/minicraft-plus-revived:common,error with test,7.3,no test,,,,,4
+MinicraftPlus/minicraft-plus-revived:server,error with test,7.3,no test,,,,,4
+eventuate-examples/eventuate-examples-java-customers-and-orders,F,6.9.1,N/A,,,,,0
+googlearchive/js-store-locator,F,2.1,N/A,,,,,0
+CodelyTV/java-ddd-example:analytics,error with test,8.4,error,,,,,4
+CodelyTV/java-ddd-example:backoffice,error with test,8.4,error,,,,,4
+CodelyTV/java-ddd-example:mooc,error with test,8.4,error,,,,,4
+CodelyTV/java-ddd-example:shared,error with test,8.4,error,,,,,4
+styled-components/webstorm-styled-components,F,5.4.1,N/A,,,,,0
+VolmitSoftware/Iris:core,error with test,7.3.3,no test,,,,,14
+VolmitSoftware/Iris:nms,error with test,7.3.3,no test,,,,,14
+octo-online/reactive-audit,F,3.3,N/A,,,,,0
+dita-ot/dita-ot:axf,T,7.6.1,no test,,,,,12
+dita-ot/dita-ot:fo,T,7.6.1,no test,,,,,13
+dita-ot/dita-ot:fop,T,7.6.1,no test,,,,,14
+dita-ot/dita-ot:html5,T,7.6.1,no test,,,,,14
+dita-ot/dita-ot:htmlhelp,T,7.6.1,0,3,3,0,0,16
+dita-ot/dita-ot:xep,T,7.6.1,no test,,,,,17
+gessnerfl/fake-smtp-server,error with test,8.5,error,,,,,5
+uber-archive/phabricator-jenkins-plugin,F,4.10.3,N/A,,,,,0
+eliostvs/clean-architecture-delivery-example,F,4.5.1,N/A,,,,,0
+cdancy/jenkins-rest,T,7.6.2,0,0,0,0,0,5
+spring-cloud-samples/spring-cloud-contract-samples,error with test,7.4.2,no test,,,,,2
+kousen/java_8_recipes,T,7.5.1,0,162,159,0,3,30
+zonkyio/embedded-database-spring-test:embedded-database-spring-test,T,7.3.3,0,88,85,3,0,60
+zonkyio/embedded-database-spring-test:embedded-database-spring-test-autoconfigure,T,7.3.3,no test,,,,,60
+GlowstoneMC/Glowstone-Legacy,F,1.10,N/A,,,,,0
+Mantaro/MantaroBot,T,8.5,0,0,0,0,0,4
+Netflix/ndbench,F,6.8.3,N/A,,,,,0
+maruohon/minihud,F,2.14.1,N/A,,,,,0
+ItzSomebody/radon:xyz.itzsomebody.codegen,T,7.5.1,0,124,124,0,0,2
+ItzSomebody/radon:xyz.itzsomebody.commons,T,7.5.1,0,16,16,0,0,3
+ItzSomebody/radon:xyz.itzsomebody.radon,T,7.5.1,0,3,3,0,0,3
+ItzSomebody/radon:xyz.itzsomebody.radon.template,T,7.5.1,no test,,,,,3
+novoda/gradle-android-command-plugin,F,4.10.3,N/A,,,,,0
+googlesamples/android-AppUsageStatistics,F,4.4,N/A,,,,,0
+takipi/java-bullshifier,F,4.10.3,N/A,,,,,0
+al3xtjames/ghidra-firmware-utils,F,8.0.1,N/A,,,,,0
+mattbdean/JRAW,F,4.7,N/A,,,,,0
+ichenkaihua/ssm-easy-template,F,2.3,N/A,,,,,0
+sofn/app-engine:common-core,T,7.4,0,7,7,0,0,6
+sofn/app-engine:common-error,T,7.4,0,1,1,0,0,7
+sofn/app-engine:example-deploy,T,7.4,no test,,,,,7
+sofn/app-engine:example-task,T,7.4,no test,,,,,7
+sofn/app-engine:example-user,T,7.4,no test,,,,,8
+sofn/app-engine:frame,T,7.4,0,6,6,0,0,8
+coderplay/perfj,F,2.3,N/A,,,,,0
+wordpress-mobile/PasscodeLock-Android,F,5.1.1,N/A,,,,,0
+webauthn4j/webauthn4j:webauthn4j-core,T,8.4,1,854,854,0,0,24
+webauthn4j/webauthn4j:webauthn4j-device-check,T,8.4,0,27,27,0,0,28
+webauthn4j/webauthn4j:webauthn4j-metadata,T,8.4,0,64,64,0,0,34
+webauthn4j/webauthn4j:webauthn4j-test,T,8.4,0,4,4,0,0,35
+webauthn4j/webauthn4j:webauthn4j-util,T,8.4,0,53,53,0,0,38
+opencypher/cypher-for-gremlin,F,4.7,N/A,,,,,0
+spinnaker/swabbie,F,6.8.1,N/A,,,,,0
+vividus-framework/vividus,F,,N/A,,,,,0
+dropbox/focus:sample,error with test,7.4.2,no test,,,,,5
+hortonworks/cloudbreak,F,8.5,N/A,,,,,2
+5wimming/gadgetinspector,F,4.9,N/A,,,,,0
+thekrakken/java-grok,F,4.6,N/A,,,,,0
+noxone/regex-generator,error with test,8.5,error,,,,,7
+binkley/modern-java-practices,T,7.6.1,0,6,6,0,0,6
+GuntherRademacher/rr,error with test,8.5,no test,,,,,1
+HMCL-dev/HMCL:HMCL,error with test,8.5,error,,,,,3
+HMCL-dev/HMCL:HMCLCore,error with test,8.5,error,,,,,3
+HMCL-dev/HMCL:HMCLTransformerDiscoveryService,error with test,8.5,error,,,,,3
+0xDexter0us/Scavenger,error with test,7.3,no test,,,,,5
+4finance/micro-infra-spring,F,4.6,N/A,,,,,0
+aadnk/ProtocolLib,T,8.0.2,30,143,141,0,2,23
+acomminos/Plumble,F,2.14.1,N/A,,,,,0
+Adubbz/Ghidra-Switch-Loader,F,7.5.1,N/A,,,,,0
+airbnb/reair,F,2.11,N/A,,,,,0
+allegro/json-avro-converter,F,6.7,N/A,,,,,0
+andrewoma/dexx,F,2.9,N/A,,,,,0
+andrewoma/kwery,F,2.9,N/A,,,,,0
+andrewoma/reakt,F,2.2,N/A,,,,,0
+apache/incubator-retired-wave,F,3.2,N/A,,,,,0
+arawn/kotlin-spring-example,F,3.1,N/A,,,,,0
+asynkron/protoactor-kotlin,F,6.3,N/A,,,,,0
+aws-samples/aws-java-sample,F,2.4,N/A,,,,,0
+aws-samples/eb-java-scorekeep,F,2.7,N/A,,,,,0
+b1412/jfinal-ext,F,2.2.1,N/A,,,,,0
+bbejeck/kafka-streams,F,2.11,N/A,,,,,0
+bbejeck/kafka-streams-in-action,F,2.11,N/A,,,,,0
+binjr/binjr:binjr-adapter-csv,error with test,8.5,error,,,,,4
+binjr/binjr:binjr-adapter-jfr,error with test,8.5,error,,,,,4
+binjr/binjr:binjr-adapter-jrds,error with test,8.5,error,,,,,5
+binjr/binjr:binjr-adapter-logs,error with test,8.5,error,,,,,5
+binjr/binjr:binjr-adapter-netdata,error with test,8.5,error,,,,,5
+binjr/binjr:binjr-adapter-rrd4j,error with test,8.5,error,,,,,5
+binjr/binjr:binjr-adapter-text,error with test,8.5,error,,,,,5
+binjr/binjr:binjr-app,error with test,8.5,error,,,,,5
+binjr/binjr:binjr-core,error with test,8.5,error,,,,,5
+BladeRunnerJS/brjs,F,2.14.1,N/A,,,,,0
+boyuanitsm/pay,F,2.9,N/A,,,,,0
+bozaro/git-lfs-migrate,F,2.11,N/A,,,,,0
+brunoborges/fx2048,error with test,7.3,no test,,,,,1
+bspkrs/MCPMappingViewer,F,7.0,N/A,,,,,0
+bwaldvogel/mongo-java-server:mongo-java-server-core,T,8.1.1,error,,,,,658
+bwaldvogel/mongo-java-server:mongo-java-server-examples,T,8.1.1,error,,,,,658
+bwaldvogel/mongo-java-server:mongo-java-server-h2-backend,T,8.1.1,error,,,,,658
+bwaldvogel/mongo-java-server:mongo-java-server-memory-backend,T,8.1.1,error,,,,,658
+bwaldvogel/mongo-java-server:mongo-java-server-postgresql-backend,T,8.1.1,error,,,,,658
+bwaldvogel/mongo-java-server:mongo-java-server-test-common,T,8.1.1,error,,,,,658
+carrot2/elasticsearch-carrot2,error with test,7.5.1,no test,,,,,2
+CategoricalData/CQL,F,6.3,N/A,,,,,0
+chrishantha/jfr-flame-graph,T,7.4.1,0,5,5,0,0,1
+chrislo27/PolyrhythmMania:core,error with test,8.4,error,,,,,55
+chrislo27/PolyrhythmMania:desktop,error with test,8.4,error,,,,,78
+ChronixDB/chronix.server,F,4.10.3,N/A,,,,,0
+chucknorris-io/chuck-api,error with test,7.6.1,error,,,,,4
+cloudfoundry/credhub:applications,T,8.5,no test,,,,,45
+cloudfoundry/credhub:backends,T,8.5,no test,,,,,45
+cloudfoundry/credhub:components,T,8.5,no test,,,,,46
+CodelyTV/java-ddd-example-deprecated,F,5.1.1,N/A,,,,,0
+CodeNarc/CodeNarc:integration-test,T,7.4.1,0,1,0,0,1,15
+concordion/concordion,T,8.2.1,error,,,,,4
+Concurnas/Concurnas,F,5.6.1,N/A,,,,,0
+ContextMapper/context-mapper-dsl:context-mapper-dsl,T,7.4.2,no test,,,,,922
+ContextMapper/context-mapper-dsl:context-mapper-dsl-tests,T,7.4.2,7,728,714,12,2,1061
+ContextMapper/context-mapper-dsl:context-mapper-lsp,T,7.4.2,no test,,,,,1063
+ContextMapper/context-mapper-dsl:context-mapper-lsp-tests,T,7.4.2,0,76,73,3,0,1141
+copper-engine/copper-engine,F,6.7,N/A,,,,,1
+corretto/amazon-corretto-crypto-provider,error with test,7.2,no test,,,,,4
+craftercms/craftercms,error with test,8.0.2,error,,,,,105
+CraftTweaker/CraftTweaker,F,8.5,N/A,,,,,24
+Creditas/kotlin-ddd-sample,F,4.8.1,N/A,,,,,0
+Cuyler36/Ghidra-GameCube-Loader,F,7.5.1,N/A,,,,,0
+CyberdyneCC/Thermos,F,2.8,N/A,,,,,0
+d10xa/holidays-calendar:data-test,error with test,7.5.1,error,,,,,3
+deephaven/deephaven-core:application-mode,error with test,7.6.3,error,,,,,93
+deephaven/deephaven-core:authentication,error with test,7.6.3,error,,,,,94
+deephaven/deephaven-core:authorization,error with test,7.6.3,error,,,,,94
+deephaven/deephaven-core:authorization-codegen,error with test,7.6.3,error,,,,,94
+deephaven/deephaven-core:Base,error with test,7.6.3,error,,,,,94
+deephaven/deephaven-core:base-test-utils,error with test,7.6.3,error,,,,,94
+deephaven/deephaven-core:BenchmarkSupport,error with test,7.6.3,error,,,,,94
+deephaven/deephaven-core:bom,error with test,7.6.3,error,,,,,94
+deephaven/deephaven-core:ClientSupport,error with test,7.6.3,error,,,,,95
+deephaven/deephaven-core:clock,error with test,7.6.3,error,,,,,95
+deephaven/deephaven-core:clock-impl,error with test,7.6.3,error,,,,,95
+deephaven/deephaven-core:codegen,error with test,7.6.3,error,,,,,95
+deephaven/deephaven-core:combined-javadoc,error with test,7.6.3,error,,,,,95
+deephaven/deephaven-core:configs,error with test,7.6.3,error,,,,,95
+deephaven/deephaven-core:Configuration,error with test,7.6.3,error,,,,,95
+deephaven/deephaven-core:Container,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:cpp-client,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:DataStructures,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:deephaven-jpy-config,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:deephaven-jpy-ext,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:DHProcess,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:docker-cpp-clients-multi-base,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:docker-go,error with test,7.6.3,error,,,,,96
+deephaven/deephaven-core:docker-node,error with test,7.6.3,error,,,,,97
+deephaven/deephaven-core:docker-protoc-base,error with test,7.6.3,error,,,,,97
+deephaven/deephaven-core:docker-python,error with test,7.6.3,error,,,,,97
+deephaven/deephaven-core:docker-runtime-base,error with test,7.6.3,error,,,,,97
+deephaven/deephaven-core:docker-selenium,error with test,7.6.3,error,,,,,97
+deephaven/deephaven-core:docker-server,error with test,7.6.3,error,,,,,97
+deephaven/deephaven-core:docker-server-base,error with test,7.6.3,error,,,,,97
+deephaven/deephaven-core:docker-server-jetty,error with test,7.6.3,error,,,,,98
+deephaven/deephaven-core:docker-server-slim,error with test,7.6.3,error,,,,,98
+deephaven/deephaven-core:docker-slim-base,error with test,7.6.3,error,,,,,98
+deephaven/deephaven-core:docker-web-plugin-packager,error with test,7.6.3,error,,,,,98
+deephaven/deephaven-core:engine-api,error with test,7.6.3,error,,,,,98
+deephaven/deephaven-core:engine-base,error with test,7.6.3,error,,,,,98
+deephaven/deephaven-core:engine-benchmark,error with test,7.6.3,error,,,,,98
+deephaven/deephaven-core:engine-chunk,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-context,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-function,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-primitive,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-processor,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-processor-function,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-query-constants,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-rowset,error with test,7.6.3,error,,,,,99
+deephaven/deephaven-core:engine-rowset-test-utils,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-sql,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-stringset,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-table,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-test-utils,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-time,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-tuple,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-tuplesource,error with test,7.6.3,error,,,,,100
+deephaven/deephaven-core:engine-updategraph,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:engine-vector,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:extensions-arrow,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:extensions-barrage,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:extensions-classgraph,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:extensions-csv,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:extensions-jdbc,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:extensions-kafka,error with test,7.6.3,error,,,,,101
+deephaven/deephaven-core:extensions-parquet-base,error with test,7.6.3,error,,,,,102
+deephaven/deephaven-core:extensions-parquet-benchmark,error with test,7.6.3,error,,,,,102
+deephaven/deephaven-core:extensions-parquet-compression,error with test,7.6.3,error,,,,,102
+deephaven/deephaven-core:extensions-parquet-table,error with test,7.6.3,error,,,,,102
+deephaven/deephaven-core:extensions-performance,error with test,7.6.3,error,,,,,102
+deephaven/deephaven-core:extensions-protobuf,error with test,7.6.3,error,,,,,102
+deephaven/deephaven-core:extensions-source-support,error with test,7.6.3,error,,,,,102
+deephaven/deephaven-core:extensions-suanshu,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:Generators,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:go,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:grpc-java,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:hotspot,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:hotspot-impl,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:Integrations,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:IO,error with test,7.6.3,error,,,,,103
+deephaven/deephaven-core:java-client-barrage,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-barrage-dagger,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-barrage-examples,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-example-utilities,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-flight,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-flight-dagger,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-flight-examples,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-session,error with test,7.6.3,error,,,,,104
+deephaven/deephaven-core:java-client-session-dagger,error with test,7.6.3,error,,,,,105
+deephaven/deephaven-core:java-client-session-examples,error with test,7.6.3,error,,,,,105
+deephaven/deephaven-core:jpy-integration,error with test,7.6.3,error,,,,,105
+deephaven/deephaven-core:log-example-base,error with test,7.6.3,error,,,,,105
+deephaven/deephaven-core:log-example-file,error with test,7.6.3,error,,,,,105
+deephaven/deephaven-core:log-example-logback,error with test,7.6.3,error,,,,,105
+deephaven/deephaven-core:log-example-slf4j,error with test,7.6.3,error,,,,,105
+deephaven/deephaven-core:log-example-stream,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:log-factory,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:log-to-file,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:log-to-logbuffer,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:log-to-slf4j,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:log-to-stream,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:logback-logbuffer,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:logback-print-stream-globals,error with test,7.6.3,error,,,,,106
+deephaven/deephaven-core:ModelFarm,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:Numerics,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:open-api-lang-parser,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:open-api-lang-tools,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:open-api-shared-fu,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:Plot,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:plugin,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:plugin-dagger,error with test,7.6.3,error,,,,,107
+deephaven/deephaven-core:plugin-echo,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:plugin-figure,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:plugin-gc-app,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:plugin-hierarchicaltable,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:plugin-partitionedtable,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:proto,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:py-client,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:py-client-ticking,error with test,7.6.3,error,,,,,108
+deephaven/deephaven-core:py-embedded-server,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:py-embedded-server-java-runtime,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:py-server,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:qst,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:qst-graphviz,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:qst-type,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:R,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:replication-reflective,error with test,7.6.3,error,,,,,109
+deephaven/deephaven-core:replication-static,error with test,7.6.3,error,,,,,110
+deephaven/deephaven-core:replication-util,error with test,7.6.3,error,,,,,110
+deephaven/deephaven-core:server,error with test,7.6.3,error,,,,,110
+deephaven/deephaven-core:server-jetty,error with test,7.6.3,error,,,,,110
+deephaven/deephaven-core:server-jetty-app,error with test,7.6.3,error,,,,,110
+deephaven/deephaven-core:server-jetty-app-custom,error with test,7.6.3,error,,,,,110
+deephaven/deephaven-core:server-netty,error with test,7.6.3,error,,,,,110
+deephaven/deephaven-core:server-netty-app,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:server-test,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:SevenZip,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:slf4j-to-log,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:sphinx,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:sql,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:ssl-config,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:ssl-kickstart,error with test,7.6.3,error,,,,,111
+deephaven/deephaven-core:Stats,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:table-api,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:TableLogger,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:test-configs,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:uri,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:Util,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:util-function,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:util-immutables,error with test,7.6.3,error,,,,,112
+deephaven/deephaven-core:web,error with test,7.6.3,error,,,,,113
+deephaven/deephaven-core:web-client-api,error with test,7.6.3,error,,,,,113
+deephaven/deephaven-core:web-client-backplane,error with test,7.6.3,error,,,,,113
+deephaven/deephaven-core:web-client-ui,error with test,7.6.3,error,,,,,113
+deephaven/deephaven-core:web-shared-beans,error with test,7.6.3,error,,,,,113
+divolte/divolte-collector,F,5.6.3,N/A,,,,,0
+DSecurity/efiSeek,F,7.4.2,N/A,,,,,0
+DTeam-Top/dgate,F,5.6,N/A,,,,,0
+ether-camp/ethereum-harmony,F,4.6,N/A,,,,,0
+eth-sri/securify,F,4.10.2,N/A,,,,,0
+eventuate-examples/eventuate-examples-restaurant-management,F,2.11,N/A,,,,,0
+FabricMC/fabric-language-kotlin,T,8.4,0,8,8,0,0,8
+finos/plexus-interop,F,4.10,N/A,,,,,0
+firebase/firebase-cpp-sdk,F,6.7.1,N/A,,,,,0
+FlansMods/FlansMod,F,4.9,N/A,,,,,0
+FlashyReese/sodium-extra-fabric,error with test,8.5,no test,,,,,6
+geb/geb-example-gradle,error with test,7.5.1,error,,,,,0
+googleapis/gapic-generator,F,4.10.3,N/A,,,,,0
+GoogleCloudPlatform/gradle-appengine-plugin,F,4.0,N/A,,,,,0
+gpx-animator/gpx-animator,T,8.5,0,107,106,0,1,19
+Grigory-Rylov/android-methods-profiler:app,error with test,7.4,error,,,,,13
+Grigory-Rylov/android-methods-profiler:core,error with test,7.4,no test,,,,,13
+Grigory-Rylov/android-methods-profiler:plugin,error with test,7.4,no test,,,,,13
+groovyfx-project/groovyfx,F,6.8.3,N/A,,,,,0
+happysingh23828/Android-Clean-Architecture,F,5.6.4,N/A,,,,,0
+HaxeFoundation/intellij-haxe:common,error with test,7.6,error,,,,,7
+HaxeFoundation/intellij-haxe:hxcpp-debugger-protocol,error with test,7.6,error,,,,,7
+HaxeFoundation/intellij-haxe:jps-plugin,error with test,7.6,error,,,,,7
+HbmMods/Hbm-s-Nuclear-Tech-GIT,F,4.4.1,N/A,,,,,0
+hyperledger/fabric-chaincode-java:fabric-chaincode-docker,T,7.6.3,error,,,,,9
+hyperledger/fabric-chaincode-java:fabric-chaincode-integration-test,T,7.6.3,error,,,,,9
+hyperledger/fabric-chaincode-java:fabric-chaincode-shim,T,7.6.3,error,,,,,9
+iainporter/oauth2-provider,F,2.1,N/A,,,,,0
+int128/gradle-swagger-generator-plugin:acceptance-test,T,7.6.3,0,64,64,0,0,51
+int128/gradle-swagger-generator-plugin:template-project,T,7.6.3,no test,,,,,51
+jakeouellette/inspector,F,1.12,N/A,,,,,0
+jaredlll08/MultiLoader-Template:common,error with test,8.5,no test,,,,,28
+jaredlll08/MultiLoader-Template:fabric,error with test,8.5,0,0,0,0,0,29
+jaredlll08/MultiLoader-Template:forge,error with test,8.5,error,,,,,30
+jaredlll08/MultiLoader-Template:neoforge,error with test,8.5,0,0,0,0,0,49
+java9-modularity/gradle-modules-plugin,T,7.2,57,217,82,134,1,141
+javaparser/javasymbolsolver,F,2.12,N/A,,,,,0
+jediminer543/JMT-MCMT,F,4.10.3,N/A,,,,,0
+jenkinsci/mesos-plugin,F,5.1.1,N/A,,,,,0
+JetBrains/gradle-idea-ext-plugin,F,6.5,N/A,,,,,0
+jk1/Gradle-License-Report,T,8.1.1,0,139,135,2,2,26
+jkazama/ddd-java,T,8.1.1,0,14,14,0,0,5
+jparkie/PDD,F,2.9,N/A,,,,,0
+jshingler/TOS-and-Thinkscript-Snippet-Collection,F,6.0,N/A,,,,,0
+jvm-bloggers/jvm-bloggers,T,7.6,1,1447,1447,0,0,28
+komputing/FaucETH,T,7.6,error,,,,,2
+Kopamed/Raven-bPLUS,F,4.7,N/A,,,,,0
+kosaka-bun/qqrobot-sdk:qqrobot-framework-api,error with test,7.4,error,,,,,6
+kosaka-bun/qqrobot-sdk:qqrobot-spring-boot-starter,error with test,7.4,error,,,,,6
+ksprojects/protobuf-jetbrains-plugin,F,4.10.2,N/A,,,,,0
+kt3k/coveralls-gradle-plugin,F,6.8.3,N/A,,,,,0
+LambdaInnovation/AcademyCraft,F,4.8.1,N/A,,,,,0
+lawrancej/logisim,F,2.2,N/A,,,,,0
+LinkedInAttic/Cubert,F,2.0,N/A,,,,,0
+linkedin/isolation-forest,F,6.8.3,N/A,,,,,0
+linkedin/transport:transportable-udfs-annotation-processor,T,7.5.1,error,,,,,7
+linkedin/transport:transportable-udfs-api,T,7.5.1,error,,,,,7
+linkedin/transport:transportable-udfs-avro,T,7.5.1,error,,,,,7
+linkedin/transport:transportable-udfs-codegen,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-compile-utils,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-hive,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-plugin,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-spark_2.11,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-spark_2.12,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-test,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-trino,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-trino-plugin,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-type-system,T,7.5.1,error,,,,,8
+linkedin/transport:transportable-udfs-utils,T,7.5.1,error,,,,,9
+Lunatrius/Schematica,F,2.9,N/A,,,,,0
+malikzh/NCANode,error with test,7.2,error,,,,,1
+maruohon/malilib,F,2.14.1,N/A,,,,,0
+mbeddr/mbeddr.core:BigProject,error with test,8.0.2,no test,,,,,8
+mbeddr/mbeddr.core:build,error with test,8.0.2,no test,,,,,8
+mbeddr/mbeddr.core:try,error with test,8.0.2,error,,,,,8
+MCMicS/jenkins-control-plugin,T,8.1.1,error,,,,,9
+meddle0x53/learning-rxjava,F,2.0,N/A,,,,,0
+melix/deck2pdf,F,2.5,N/A,,,,,0
+michalstocki/FlashWavRecorder,F,1.10,N/A,,,,,0
+michel-kraemer/bson4jackson,T,8.0.1,0,128,128,0,0,2
+miho/VWorkflows:vworkflows-core,T,7.4.2,0,21,16,5,0,11
+miho/VWorkflows:vworkflows-demo,T,7.4.2,no test,,,,,11
+miho/VWorkflows:vworkflows-fx,T,7.4.2,0,1,1,0,0,11
+Minecraft-Transit-Railway/Minecraft-Transit-Railway:common,error with test,7.3.3,no test,,,,,21
+Minecraft-Transit-Railway/Minecraft-Transit-Railway:fabric,error with test,7.3.3,no test,,,,,22
+Minecraft-Transit-Railway/Minecraft-Transit-Railway:forge,error with test,7.3.3,no test,,,,,22
+mraible/21-points,T,7.4.2,0,53,53,0,0,30
+MrCrayfish/Controllable,F,8.1.1,N/A,,,,,2
+nadavc/groovykoans,F,2.8,N/A,,,,,0
+Nan1t/NanoLimbo,error with test,7.4.2,no test,,,,,0
+naver/spring-jdbc-plus:guide-projects,T,7.6,error,,,,,5
+naver/spring-jdbc-plus:spring-boot-autoconfigure-data-jdbc-plus,T,7.6,error,,,,,5
+naver/spring-jdbc-plus:spring-boot-starter-data-jdbc-plus-repository,T,7.6,error,,,,,5
+naver/spring-jdbc-plus:spring-boot-starter-data-jdbc-plus-sql,T,7.6,error,,,,,5
+naver/spring-jdbc-plus:spring-data-jdbc-plus-repository,T,7.6,error,,,,,5
+naver/spring-jdbc-plus:spring-data-jdbc-plus-sql,T,7.6,error,,,,,5
+naver/spring-jdbc-plus:spring-data-plus-sql-gen,T,7.6,error,,,,,5
+naver/spring-jdbc-plus:spring-jdbc-plus-support,T,7.6,error,,,,,5
+nebula-plugins/nebula-release-plugin,T,8.6,error,182,182,0,0,4
+Netflix/gradle-template,F,6.4,N/A,,,,,0
+Netflix/inviso,F,1.12,N/A,,,,,0
+Netflix/photon,error with test,7.6,error,,,,,1
+Netflix/ReactiveLab,F,1.11,N/A,,,,,0
+Netflix/s3mper,F,2.2.1,N/A,,,,,0
+Netflix-Skunkworks/hystrix-dashboard,F,4.0,N/A,,,,,0
+Netflix/zeno,F,2.2.1,N/A,,,,,0
+neueda/jetbrains-plugin-graph-database-support,F,6.2,N/A,,,,,0
+neuhalje/bouncy-gpg,F,6.5.1,N/A,,,,,0
+nickrussler/email-to-pdf-converter,F,6.6.1,N/A,,,,,0
+nulab/zxcvbn4j,T,8.3,0,773,773,0,0,37
+nviennot/jd-core-java,F,1.11,N/A,,,,,0
+opendistro-for-elasticsearch/alerting,F,6.6.1,N/A,,,,,0
+opendistro-for-elasticsearch/k-NN,F,6.6.1,N/A,,,,,0
+openjdk/jextract,F,7.3.3,N/A,,,,,0
+P3GLEG/PwnBack,F,,N/A,,,,,0
+palantir/gradle-baseline:baseline-error-prone,T,7.5.1,error,,,,,33
+palantir/gradle-baseline:baseline-null-away,T,7.5.1,error,,,,,33
+palantir/gradle-baseline:gradle-baseline-java,T,7.5.1,error,,,,,33
+palantir/gradle-baseline:gradle-baseline-java-config,T,7.5.1,error,,,,,33
+palantir/gradle-baseline:gradle-junit-reports,T,7.5.1,error,,,,,33
+palantir/gradle-graal,T,7.6.2,error,,,,,4
+paulschwarz/spring-dotenv,F,8.0,N/A,,,,,0
