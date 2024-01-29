@@ -1438,3 +1438,99 @@ https://github.com/spinnaker/clouddriver,3a1e81bb72224c09df611c8d68a1e7065ce70fd
 https://github.com/spinnaker/clouddriver,3a1e81bb72224c09df611c8d68a1e7065ce70fd1,clouddriver-event,com.netflix.spinnaker.clouddriver.event.persistence.InMemoryEventRepositoryTest.minutests()[6][1]
 https://github.com/spinnaker/clouddriver,3a1e81bb72224c09df611c8d68a1e7065ce70fd1,clouddriver-kubernetes,com.netflix.spinnaker.clouddriver.kubernetes.op.job.KubectlJobExecutorTest.kubectlRetryHandlingForKubectlCallsThatUseStdinWhichContinueFailingAfterAllRetries()
 https://github.com/spinnaker/clouddriver,3a1e81bb72224c09df611c8d68a1e7065ce70fd1,clouddriver-yandex,com.netflix.spinnaker.clouddriver.yandex.controller.YandexControllersTest.scalingActivities()
+https://github.com/webauthn4j/webauthn4j,fb723ba15d15ec66abb771c7e2ac4446ea505a95,webauthn4j-core,com.webauthn4j.data.extension.client.AuthenticationExtensionsClientInputsTest.serialize_registration_test()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testSerialization()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testMultiBlockChange()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testPotionEffect()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testEntityTypeModifier()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testCloning()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testMapChunk()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testGetPositionCollectionModifier()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testBigPacketSerialization()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testMovingBlockPos()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.utility.StreamSerializerTest.testStrings()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.AutoWrapperTest.testToNms()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.AutoWrapperTest.testFromNms()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.ChunkCoordIntPairTest.test()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.EnumWrappersTest.validateAllEnumFieldsAreWrapped()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.PlayerInfoDataTest.test()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedDataWatcherTest.testDeepClone()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedDataWatcherTest.testBytes()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedProfilePublicKeyTest.testPublicKey()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedRegistryTest.testRegistries()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedServerPingTest.testDefaultData()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedServerPingTest.fullTest()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedServerPingTest.testSetPartialData()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testPlayerInfoActions()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.events.PacketContainerTest.testUseEntity()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.BukkitConvertersTest.testRemoteChatSessionDataConverter()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedAttributeTest.testAttribute()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedAttributeTest.testFromTemplate()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedDataWatcherTest.testHasIndex()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedDataWatcherTest.testFloats()
+https://github.com/aadnk/ProtocolLib,e77ed96957f0479f68f93a6ac685bdc2e54d279d,.,com.comphenix.protocol.wrappers.WrappedDataWatcherTest.testStrings()
+https://github.com/ContextMapper/context-mapper-dsl,9129c0f77f159f8dc0ba24c627efb4f151a334ad,context-mapper-dsl-tests,org.contextmapper.dsl.generators.mdsl.MDSLAPIDescriptionCreatorTest.canCreateCommentInCaseThereIsNoOperationInAnAPI()
+https://github.com/ContextMapper/context-mapper-dsl,9129c0f77f159f8dc0ba24c627efb4f151a334ad,context-mapper-dsl-tests,org.contextmapper.dsl.generators.plantuml.PlantUMLStateDiagramCreatorTest.canCreateStateDiagram4AggregateViaEntity()
+https://github.com/ContextMapper/context-mapper-dsl,9129c0f77f159f8dc0ba24c627efb4f151a334ad,context-mapper-dsl-tests,org.contextmapper.dsl.generators.plantuml.PlantUMLStateDiagramCreatorTest.canCreateStateDiagram4AggregateViaService()
+https://github.com/ContextMapper/context-mapper-dsl,9129c0f77f159f8dc0ba24c627efb4f151a334ad,context-mapper-dsl-tests,org.contextmapper.dsl.generators.plantuml.PlantUMLStateDiagramCreatorTest.canCreateStateDiagram4FlowDefinition()
+https://github.com/ContextMapper/context-mapper-dsl,9129c0f77f159f8dc0ba24c627efb4f151a334ad,context-mapper-dsl-tests,org.contextmapper.dsl.generators.plantuml.PlantUMLStateDiagramCreatorTest.canCreateStateDiagram4FlowDefinitionAndRespectEndStates()
+https://github.com/ContextMapper/context-mapper-dsl,9129c0f77f159f8dc0ba24c627efb4f151a334ad,context-mapper-dsl-tests,org.contextmapper.dsl.generators.plantuml.PlantUMLStateDiagramCreatorTest.canCreateStateDiagram4AggregateAndRespectEndStates()
+https://github.com/ContextMapper/context-mapper-dsl,9129c0f77f159f8dc0ba24c627efb4f151a334ad,context-mapper-dsl-tests,org.contextmapper.dsl.refactoring.MergeBoundedContextsTest.canMergeImplementationTechnology()
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTest(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestJunit5(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRun(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunStartScripts(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestDist(String, GradleVersion)[24]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[8]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[9]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[10]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[11]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[16]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[17]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[18]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[19]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[20]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[21]
+https://github.com/java9-modularity/gradle-modules-plugin,5fadfd63de67fa1344b00d37ffa34ca1012e58a6,.,org.javamodularity.moduleplugin.ModulePluginSmokeTest.smokeTestRunDemo(String, GradleVersion)[24]
+https://github.com/jvm-bloggers/jvm-bloggers,c7cbf81afd7b9fb95c840b9d96c59b29fd740980,.,com.jvm_bloggers.core.data_fetching.blog_posts.BlogPostServiceSpec.Should persist new blog posts
