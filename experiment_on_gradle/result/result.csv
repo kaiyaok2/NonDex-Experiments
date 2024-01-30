@@ -1021,7 +1021,7 @@ spotify/heroic,F,5.2.1,N/A,,,,,0
 researchgate/gradle-release,F,6.9.2,N/A,,,,,0
 ringo/ringojs,T,7.4.2,error,,,,,3
 GrimAnticheat/Grim,error with test,7.4,error,,,,,3
-Netflix/governator:governator,T,7.5.1,152,149,17,132,0,7
+Netflix/governator:governator,T,7.5.1,0,149,17,132,0,7
 Netflix/governator:governator-annotations,T,7.5.1,no test,,,,,7
 Netflix/governator:governator-api,T,7.5.1,no test,,,,,7
 Netflix/governator:governator-archaius,T,7.5.1,0,7,7,0,0,8
@@ -2093,3 +2093,5 @@ palantir/gradle-baseline:gradle-baseline-java-config,T,7.5.1,error,,,,,33
 palantir/gradle-baseline:gradle-junit-reports,T,7.5.1,error,,,,,33
 palantir/gradle-graal,T,7.6.2,error,,,,,4
 paulschwarz/spring-dotenv,F,8.0,N/A,,,,,0
+android/android-studio-poet:aspoet,T,7.2,0,112,108,4,0,10
+android/android-studio-poet:aspoet-input,T,7.2,no test,,,,,10
