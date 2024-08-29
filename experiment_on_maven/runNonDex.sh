@@ -29,11 +29,11 @@ runNondex () {
 	mvn edu.illinois:nondex-maven-plugin:$nondex_version:nondex -pl :$line -Drat.skip=true -Dlicense.skip=true | tee ./.runNondex/LOGS/$line.log
     	grep "NonDex SUMMARY:" ./.runNondex/LOGS/$line.log
     	if ( grep "NonDex SUMMARY:" ./.runNondex/LOGS/$line.log ); then
-		flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' ./.runNondex/LOGSSS/$line.log | sed -e '1d;$d' | wc -l)
+		flaky_tests=$(sed -n -e '/Across all seeds:/,/Test results can be found at: / p' ./.runNondex/LOGS/$line.log | sed -e '1d;$d' | wc -l)
 		if [[ $flaky_tests != '0' ]]; then
 			sha=$(git rev-parse HEAD)
 			sed -n -e '/Across all seeds:/,/Test results can be found at: / p' ./.runNondex/LOGS/$line.log | sed -e '1d;$d' | cut -f1 -d' ' --complement | while read flaky_line
-				do echo "https://github.com/$1,${sha},${line},${flaky_line}" >> ${DIR}/flaky.csv
+				do echo "https://$1,${sha},${line},${flaky_line}" >> ${DIR}/flaky.csv
 			done
 		fi
     	else
